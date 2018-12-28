@@ -10,4 +10,4 @@ all:
 	@mkdir stage_pycraft
 	@mv launcher stage_pycraft
 	@mv engine.so stage_pycraft
-	@cp texture.png stage_pycraft
+	@cp -r data stage_pycraft
